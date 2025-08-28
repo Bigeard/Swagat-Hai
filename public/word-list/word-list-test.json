@@ -1,0 +1,21 @@
+{
+    "id": "0",
+    "name": "Word List Test",
+    "listWords": [
+        {
+            "answer": "test0",
+            "guess": "test0",
+            "translation": "test0"
+        },
+        {
+            "answer": "test1",
+            "guess": "test1",
+            "translation": "test1"
+        },
+        {
+            "answer": "test2",
+            "guess": "test2",
+            "translation": "test2"
+        }
+    ]
+}
