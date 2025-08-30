@@ -1,7 +1,8 @@
 {
-  "name": "Swagat Hai",
+  "name": "swagat-hai",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "homepage": "https://Bigeard.github.io/Swagat-Hai",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +10,9 @@
     "preview": "vite preview",
     "tauri": "tauri",
     "serve-dist": "npx serve dist -l 1420",
-    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "predeploy": "npm run build ",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -27,6 +30,7 @@
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "prettier": "^3.6.2",
     "typescript": "~5.6.2",
